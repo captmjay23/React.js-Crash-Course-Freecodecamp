@@ -1,0 +1,50 @@
+.main .memes-content .container .meme-result {
+  margin: 2em 0 0 0;
+  display: flex;
+  justify-content: center;
+}
+.main .memes-content .container .meme-result .meme-card {
+  max-width: 600px;
+  height: 600px;
+  width: 100%;
+  position: relative;
+}
+.main .memes-content .container .meme-result .meme-card .card-img-container {
+  width: 100%;
+  height: 100%;
+}
+.main
+  .memes-content
+  .container
+  .meme-result
+  .meme-card
+  .card-img-container
+  img {
+  max-width: 100%;
+  height: 100%;
+}
+.main .memes-content .container .meme-result .meme-card .card-text {
+  max-width: 500px;
+  width: 100%;
+}
+.main .memes-content .container .meme-result .meme-card .card-text .text {
+  color: #fff;
+  text-align: center;
+  position: absolute;
+}
+.main .memes-content .container .meme-result .meme-card .card-text .top-text {
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.main
+  .memes-content
+  .container
+  .meme-result
+  .meme-card
+  .card-text
+  .bottom-text {
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
